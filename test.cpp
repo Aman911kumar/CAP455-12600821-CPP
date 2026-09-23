@@ -3,19 +3,14 @@ using namespace std;
 
 int main()
 {
-  int sum(int, int);
-  float sum(float, float);
-  cout << "The sum of 10 and 20" << sum(10, 20) << endl;
-  cout << "The sum of 10 and 20" << sum(2.3, 3.4);
-  
-}
+  int arr[5] = {1, 2, 3};
 
-int sum(int a, int b)
-{
-  return (a + b);
-}
+  cout << arr[10];
 
-float sum(float x, float y)
-{
-  return (x + y);
+  // for (int i = 0; i < sizeof(arr) / sizeof(int) + 1; i++)
+  // {
+  //   cout << i[arr] << endl;
+  // }
+
+  return 0;
 }

@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
+int area(int ,int);
+float area(float ,int);
 
 
 int main(){
-    float area(float ,int);
-    int area(int ,int);
 
     float pi = 3.14;
     int l,b,r;
